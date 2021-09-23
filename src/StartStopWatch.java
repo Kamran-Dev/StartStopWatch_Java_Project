@@ -84,7 +84,7 @@ public class StartStopWatch implements ActionListener {
         timeLabel.setHorizontalAlignment(JTextField.CENTER);
         frame1.add(timeLabel);
 
-        // startstopbutton settings 
+        // startstopbutton settings
         startStopButton.setBounds(38,65,75,35);
         Font buttonFont = new Font("Ink free", Font.PLAIN,12);
         startStopButton.setFont(buttonFont);
