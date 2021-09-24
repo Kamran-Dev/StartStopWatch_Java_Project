@@ -65,6 +65,7 @@ public class StartStopWatch implements ActionListener {
         int yLoc = (((int)heightOfScreen / 2) - (200/2));
 
         frame1.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame1.setTitle(" Stopwatch");
         frame1.setSize(250,150);
         frame1.setLocation(xLoc, yLoc);
         frame1.getContentPane().setBackground(new Color(70,140,250));
